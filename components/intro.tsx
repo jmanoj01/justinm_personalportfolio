@@ -82,7 +82,7 @@ function Intro() {
                                outline-none focus:scale-110 hover:scale-110
                                active:scale-105 transition cursor-pointer border
                                border-gray-900/20 dark:bg-white/10"
-                    href = "/usrikar_resume_fsd_2.pdf"
+                    href = "/usrikar_resume_sde_3.pdf"
                     download
                 >
                     Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
