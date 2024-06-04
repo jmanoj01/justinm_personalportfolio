@@ -4,11 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import live_stream_png from "@/public/live_streaming_online.png";
 import live_board_png from "@/public/live_board_sharing.png";
-import fin_saas_png from "@/public/finance_saas.png";
 import notion_clone_png from "@/public/notion_clone.png";
 import trello_clone_png from "@/public/trello_clone.png";
 import discord_clone_png from "@/public/discord_clone.png";
-import lms_png from "@/public/lms.png";
 import saas_ai_png from "@/public/saas_ai_platform.png";
 
 export const links = [
@@ -45,9 +43,10 @@ export const experiencesData = [
         location: "Falls Church, Virginia",
         description:
         [
-            " Working as a graduate research assistant at WirelessVT. ",
-            " I'm working on enhancements in interference simulations in 12Ghz RF SAS using Angular and Django.",
-            " I am currently focusing on setting up platform independent infrastructure along with policy implementations and algorithm robustness"
+            "Designed and implemented optimized Dockerfiles for both frontend (Angular) and backend (Django) components " +
+            "improving deployment efficiency and consistency by using multi-stage builds to minimize the image size and enhance performance.",
+            "Modelling context awareness and policy adaptation dynamic spectrum sharing between 5G terrestrial and " +
+            "incumbent networks over the satellite bands in Python using various OOPs and design principles"
         ],
         icon: React.createElement(LuGraduationCap),
         date: "11/2023 - Present",
@@ -105,14 +104,14 @@ export const projectsData = [
         title: "Online Live Streaming Platform",
         description:
             "A video live-streaming service with real-time chat, video player, followers, block and unblock users, using local tunnels, webhooks and  using RTMP, WHIP protocols to connect to OBS",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "MySQL"],
+        tags: ["React", "Next.js", "MongoDB", "Tailwind", "NoSQL"],
         imageUrl: live_stream_png,
     },
     {
         title: "Collaborative Real-time Whiteboard",
         description:
             "A real-time whiteboard collaborating with multiple users and whiteboard from scratch with ability to draw rectangles, ellipses, sticky notes, and free hand pencil drawing",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Convex"],
+        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Convex", "Clerk", "LiveBlocks"],
         imageUrl: live_board_png,
     },
     {
