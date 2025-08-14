@@ -55,8 +55,8 @@ function Contact() {
             <p className="mb-3 text-gray-700 -mt-6 dark:text-white/80">
                 If you would like to get in touch with me, please feel free to send me an email at{" "}
                 <a className={"underline"}
-                    href="mailto:srikarummineni123@gmail.com">
-                    srikarummineni123@gmail.com
+                    href="mailto:justinmmanoj@gmail.com">
+                    justinmmanoj@gmail.com
                 </a> or through this form.
             </p>
             <form

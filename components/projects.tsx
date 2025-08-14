@@ -9,27 +9,29 @@ import {ActiveSectionContext} from "@/context/active-section-context";
 function Projects() {
     const {ref, inView} = useInView();
     const {setActiveSection} = useContext(ActiveSectionContext);
+    
     useEffect(() => {
         if (inView) {
             setActiveSection("Projects");
         }
-    },[inView, setActiveSection]);
+    }, [inView, setActiveSection]);
+
     return (
         <section
             id={"projects"}
-            className="scroll-mt-28 mb-28"
+            className="scroll-mt-12 mb-12"
             ref={ref}
         >
             <SectionHeading>
                 My Projects
             </SectionHeading>
-            <div>
+            <div className="space-y-4">
                 {projectsData.map((project, index) => (
-                    <React.Fragment
-                        key={index}
-                    >
-                        <Project {...project}/>
-                    </React.Fragment>
+                    <Project 
+                        key={index} 
+                        {...project} 
+                        index={index} 
+                    />
                 ))}
             </div>
         </section>

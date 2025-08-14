@@ -8,8 +8,7 @@ import ThemeSwitch from "@/components/theme_switch";
 import ThemeContextProvider from "@/context/theme-switch-context";
 
 export const metadata: Metadata = {
-  title: "Srikar Ummineni | Personal Portfolio",
-  description: "Srikar is a full stack developer with a passion for building beautiful and functional web applications.",
+  title: "Justin Manoj | Personal Portfolio",
 };
 
 export default function RootLayout({
@@ -19,8 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-    <body className={`bg-indigo-100 text-purple-950 relative h-[500rem] 
-    pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50`}>
+    <body className={`bg-indigo-100 text-purple-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50`}>
         <div className="bg-[#bbf7d0] absolute top-[-6rem] right-[11rem]
         h-[31.25rem] w-[31.25rem] -z-10 rounded-full blur-[10rem]
         sm:w-[68.75rem] dark:bg-[#946263]"></div>

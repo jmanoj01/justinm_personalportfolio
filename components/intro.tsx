@@ -20,8 +20,7 @@ function Intro() {
     return (
         <section
             ref={ref}
-            className="mb-28 max-w-[50rem] text-center
-            sm:mb-0 scroll-mt-[100rem]"
+            className="mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
             id={"home"}
         >
             <div className="flex items-center justify-center">
@@ -32,36 +31,33 @@ function Intro() {
                         transition={{ duration: 0.2, type:"tween" }}
                     >
                         <Image src='/portfolio-img-crop.jpg'
-                               alt="srikar photo"
-                               width="192"
-                               height="192"
+                               alt="justin photo"
+                               width="196"
+                               height="196"
                                quality="100"
                                priority={true}
-                               className="rounded-full object-cover shadow-xl h-36 w-36 border-[0.35rem] border-white"
+                               className="rounded-full object-cover shadow-xl h-42 w-42 border-[0.25rem] border-white"
                         />
                     </motion.div>
                     <motion.span
                         initial={{opacity:0, scale: 0}}
                         animate={{opacity:1, scale: 1}}
                         transition={{type: "spring", stiffness: 325, duration: 2 }}
-                        className="text-5xl absolute right-0 bottom-0">
+                        className="text-6xl absolute right-0 bottom-0">
                         👋
                     </motion.span>
                 </div>
             </div>
             <motion.h1
-                initial = {{ opacity: 0, y: 100 }}
-                animate = {{ opacity: 1, y: 0 }}
-                className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl"
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mb-6 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-3xl"
             >
-                <span className="font-bold">{`Hello, I'm Srikar Ummineni.`}</span> {`I'm`} a{" "}
-                <span className="font-bold">full-stack developer</span> with over{" "}
-                <span className="font-bold">3 years</span> of experience. I enjoy
-                building <span className="italic">sites & apps. </span> My expertise lies in
-                <span className="font-bold"> React, Next.js</span> in the frontend and{" "}
-                <span className="font-bold">Node.js, Express, Spring boot, Java</span> in the backend along with{" "}
-                <span className="font-bold">MongoDB, MySQL, PostgreSQL</span> databases. At the architecture level, I have experience in{" "}
-                developing and deploying <span className="italic">Microservices</span> utilising <span className="font-bold">AWS services</span>
+                <div className="text-3xl mt-2">
+                    Hey, I&apos;m Justin! I&apos;m an undergraduate student at the University of Massachusetts-Amherst studying{" "}
+                    <span className="font-bold">CS</span>, seeking new opportunities to learn and expand my abilities as a developer. I&apos;m interested in{" "}
+                    <span className="font-bold">full-stack development, machine learning, and data science</span>, and I love to innovate and solve problems. Browse through my site to view my portfolio of work, including my research and some of my favorite personal projects!
+                </div>
             </motion.h1>
             <motion.div
                 initial={{ opacity: 0, y: 100 }}
@@ -70,11 +66,12 @@ function Intro() {
                 className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4 text-lg font-medium"
             >
                 <Link href="#contact"
-                      className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2
-                                 rounded-full outline-none focus:scale-110 hover:scale-110
-                                 hover:bg-gray-950 active:scale-105 transition"
+                      className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full
+                                 outline-none focus:scale-110 hover:scale-110
+                                 active:scale-105 transition cursor-pointer border
+                                 border-gray-900/20 dark:bg-white/10"
                 >
-                    Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1.5 transition"/>
+                    Contact<BsArrowRight className="opacity-70 group-hover:translate-x-1.5 transition"/>
                 </Link>
 
                 <a
@@ -82,7 +79,7 @@ function Intro() {
                                outline-none focus:scale-110 hover:scale-110
                                active:scale-105 transition cursor-pointer border
                                border-gray-900/20 dark:bg-white/10"
-                    href = "/usrikar_resume_sde_3.pdf"
+                    href = "/Justin_Manoj_final (7).pdf"
                     download
                 >
                     Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>
@@ -94,7 +91,7 @@ function Intro() {
                                active:scale-105 transition cursor-pointer border
                                border-gray-900/20 hover:text-blue-500 dark:bg-white/10
                                dark:text-white/60 dark:hover:text-blue-500"
-                    href="https://www.linkedin.com/in/srikar-ummineni-67864316b/"
+                    href="https://www.linkedin.com/in/justinmmanoj/"
                     target="_blank"
                 >
                     <BsLinkedin/>
@@ -107,7 +104,7 @@ function Intro() {
                                cursor-pointer border border-gray-900/20
                                hover:text-white hover:bg-black dark:bg-white/10 dark:text-white/60
                                dark:hover:text-white dark:hover:bg-black"
-                    href="https://github.com/Ferogle"
+                    href="https://github.com/jmanoj01"
                     target="_blank"
                 >
                     <BsGithub/>
