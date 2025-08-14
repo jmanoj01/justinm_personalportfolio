@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import {links} from "@/lib/data";
 
-type SectionName = typeof links[number]["name"];
+type SectionName = "Home" | "About" | "Skills" | "Projects" | "Experience" | "Contact";
 
 export const ActiveSectionContext = React.createContext<{
     activeSection: SectionName;
