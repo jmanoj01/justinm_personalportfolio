@@ -40,7 +40,7 @@ import sticky_notes_image from "@/public/live_board_sharing.png";
 import travel_app_image from "@/public/notion_clone.png";
 import weather_app_image from "@/public/discord_clone.png";
 
-export const links = [
+export const links: Array<{name: string, hash: string}> = [
   { name: "Home", hash: "#home" },
   { name: "About", hash: "#about" },
   { name: "Skills", hash: "#skills" },
