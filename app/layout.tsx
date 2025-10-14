@@ -8,7 +8,7 @@ import ThemeSwitch from "@/components/theme_switch";
 import ThemeContextProvider from "@/context/theme-switch-context";
 
 export const metadata: Metadata = {
-  title: "Justin Manoj | Personal Portfolio",
+  title: "Justin Manoj | CS & Math Student | Personal Portfolio",
 };
 
 export default function RootLayout({

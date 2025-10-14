@@ -54,9 +54,9 @@ function Intro() {
                 className="mb-6 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-3xl"
             >
                 <div className="text-3xl mt-2">
-                    Hey, I&apos;m Justin! I&apos;m an undergraduate student at the University of Massachusetts-Amherst studying{" "}
-                    <span className="font-bold">CS</span>, seeking new opportunities to learn and expand my abilities as a developer. I&apos;m interested in{" "}
-                    <span className="font-bold">full-stack development, machine learning, and data science</span>, and I love to innovate and solve problems. Browse through my site to view my portfolio of work, including my research and some of my favorite personal projects!
+                    Hi, I&apos;m Justin! I&apos;m an undergraduate student at the University of Massachusetts-Amherst pursuing a {" "}
+                    <span className="font-bold">B.S in Computer Science and Mathematics</span>, seeking new opportunities to learn and expand my abilities as an engineer. I&apos;m interested in{" "}
+                    <span className="font-bold">full-stack development, machine learning, and data science</span>, and I love to innovate and solve problems. Browse through my site to view work, including research and some of my favorite personal projects!
                 </div>
             </motion.h1>
             <motion.div
