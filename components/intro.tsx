@@ -79,7 +79,7 @@ function Intro() {
                                outline-none focus:scale-110 hover:scale-110
                                active:scale-105 transition cursor-pointer border
                                border-gray-900/20 dark:bg-white/10"
-                    href = "/Justin_Manoj_final (7).pdf"
+                    href = "/Justin_Manoj_cv1.pdf"
                     download
                 >
                     Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition"/>

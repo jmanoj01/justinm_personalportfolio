@@ -81,7 +81,7 @@ export const experiencesData = [
     organisation: "GBCS Group/SkyIT Services",
     location: "Alberta, CA",
     description: [
-      "Replaced 8 REST endpoints with GraphQL to eliminate over-fetching and shrink client requests on internal SaaS platform.",
+      "Migrated 8 REST endpoints to GraphQL in order to eliminate over-fetching and shrink client requests on internal SaaS platform.",
       "Optimized React Query, code splitting, and PostgreSQL indexes to cut page load times by 30%.",
       "Delivered 60+ reusable TypeScript/Tailwind components and enforced code quality across 100+ PRs by implementing TypeScript linting rules, Jest utilities, and component documentation."
     ],
@@ -147,14 +147,14 @@ export const projectsData = [
   },
   {
     title: "UMass Dining Recommendation Engine",
-    description: "ML recommendation system using PyTorch and Sentence-Transformers to help students discover meals at UMass Amherst across 1,000+ menu items in 4 dining halls using a personalized dietary-preference matching algorithm.",
+    description: "ML recommendation system using PyTorch and Sentence-Transformers to help students discover meals at UMass Amherst across 100+ daily menu items from 4 dining hall commons (Franklin, Worcester, Hampshire, and Berkshire) using a personalized dietary-preference matching algorithm.",
     tags: ["PyTorch", "FastAPI", "Python", "Next.js", "PostgreSQL", "Redis", "Scikit-learn", "Sentence-Transformers", "OpenAI API"] as const,
     year: 2025,
     imageUrl: weather_app_image,
   },
   {
     title: "Terminal Clipboard History Manager",
-    description: "A cross-platform (Linux, MacOS, Windows) terminal clipboard history manager built with Go, using BubbleTea TUI library and storing data in SQLite database, featuring JSON-backed storage, fuzzy search, auto-categorization, and syntax highlighting via Chroma, supporting up to 1,000+ text/image entries with duplicate detection and export functionality.",
+    description: "A cross-platform (Linux, MacOS, Windows) terminal clipboard history manager built with Go, using BubbleTea TUI library and storing data in SQLite database, featuring JSON-backed storage, fuzzy search, auto-categorization, and syntax highlighting via Chroma, supporting up to 500-600 text/image entries with duplicate detection and export functionality.",
     tags: ["Go", "SQLite", "BubbleTea", "Chroma", "Lipgloss", "JSON", "Fuzzy Search", "Auto-Categorization", "Syntax Highlighting"] as const,
     year: 2025,
     imageUrl: weather_app_image,
